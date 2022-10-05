@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1532970875678-74ce3fc124ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ciUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+}
+
+/* for nav bar */
+
+#logo {
+  width: 50px;
+  border-radius: 50px;
+}
+
+/* for all navbar buttons */
+.btn {
+  margin-left: 30px;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.btn1 {
+  margin-left: 750px;
+}
+/* End of NavBar */
+
+.first {
+  margin-left: 600px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  width: 800px;
+  height: auto;
+  background-color: transparent;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+#first1 > input {
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+#first2 > input {
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+#first3 > input {
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+#first4 > input {
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+#first5 > input {
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+#first6 > input {
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+#first7 > input {
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  font-family: monospace;
+}
+
+#first8 > select {
+  width: auto;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 25px;
+  border: 2px solid wheat;
+  font-family: monospace;
+}
+
+#first9 > button {
+  width: 440px;
+  height: 50px;
+  border-radius: 20px;
+
+  font-size: 25px;
+  font-family: monospace;
+}
+
+.fifth {
+  width: 99vw;
+  height: 50px;
+  background-color: whitesmoke;
+}
+
+#fifth1 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#fifth2 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1500px;
+}
+
+#fifth3 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1550px;
+}
+
+#fifth4 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1600px;
+}
+
+#fifth5 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1650px;
+}
+
+#fifth6 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1700px;
+}
+
+#fifth7 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1750px;
+}
+
+#fifth8 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1800px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.stickyfooter {
+  position: sticky;
+  top: 100%;
+}
