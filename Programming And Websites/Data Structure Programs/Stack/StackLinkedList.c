@@ -25,6 +25,15 @@ void push()
         temp->link = top;
         top = temp;
         printf("Data Inserted!\n\n");
+        struct node *ptr;
+        ptr = top;
+        while (ptr)
+        {
+            printf("|%d|\n", ptr->data);
+            ptr = ptr->link;
+        }
+        printf("````");
+        printf("\n");
     }
 }
 
@@ -41,8 +50,15 @@ void pop()
     {
         ptr = top;
         top = ptr->link;
-        free(ptr);
+        ptr = top;
         printf("Node Deleted Successfully\n\n");
+        while (ptr)
+        {
+            printf("|%d|\n", ptr->data);
+            ptr = ptr->link;
+        }
+        printf("````");
+        printf("\n");
     }
 }
 
@@ -60,6 +76,13 @@ void isEmpty()
     else
     {
         printf("Stack is not empty\n");
+        while (ptr)
+        {
+            printf("|%d|\n", ptr->data);
+            ptr = ptr->link;
+        }
+        printf("````");
+        printf("\n");
     }
 }
 
@@ -74,6 +97,13 @@ void peek()
     }
     else
     {
+        while (ptr)
+        {
+            printf("|%d|\n", ptr->data);
+            ptr = ptr->link;
+        }
+        printf("````");
+        printf("\n");
         printf("Top element is: %d\n",top->data);
     }
 }
@@ -93,17 +123,13 @@ void display()
     }
     else
     {
-        printf("Head--->");
-        while (ptr != NULL)
+        while (ptr)
         {
-            printf("[%d][%d]", ptr->data, ptr->link);
-            if (ptr->link != NULL)
-            {
-                printf("--->");
-            }
+            printf("|%d|\n", ptr->data);
             ptr = ptr->link;
         }
-        printf("\n\n");
+        printf("````");
+        printf("\n");
     }
 }
 
