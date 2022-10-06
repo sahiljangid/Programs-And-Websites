@@ -17,6 +17,21 @@ int Push(int data)
         stk_arr[top] = data;
         printf("%d Element Inserted Successful.\n", data);
     }
+    int i;
+    // int length = sizeof(stk_arr)/sizeof(stk_arr[0]);
+    if (top == -1)
+    {
+        printf("Stack Is Empty.\n");
+    }
+    else
+    {
+        for (i = top; i >= 0; i--)
+        {
+            printf("|%d|\n", stk_arr[i]);
+        }
+        printf("````");
+        printf("\n");
+    }
 }
 
 int Pop()
@@ -32,15 +47,60 @@ int Pop()
         top--;
         printf("%d Element deleted successfully.\n", item);
     }
+    int i;
+    // int length = sizeof(stk_arr)/sizeof(stk_arr[0]);
+    if (top == -1)
+    {
+        printf("Stack Is Empty.\n");
+    }
+    else
+    {
+        for (i = top; i >= 0; i--)
+        {
+            printf("|%d|\n", stk_arr[i]);
+        }
+        printf("````");
+        printf("\n");
+    }
 }
 
 int Peek()
 {
+    int i;
+    // int length = sizeof(stk_arr)/sizeof(stk_arr[0]);
+    if (top == -1)
+    {
+        printf("Stack Is Empty.\n");
+    }
+    else
+    {
+        for (i = top; i >= 0; i--)
+        {
+            printf("|%d|\n", stk_arr[i]);
+        }
+        printf("````");
+        printf("\n");
+    }
     printf("%d Element is the top of the stack.\n", stk_arr[top]);
 }
 
 int isFull()
 {
+    int i;
+    // int length = sizeof(stk_arr)/sizeof(stk_arr[0]);
+    if (top == -1)
+    {
+        printf("Stack Is Empty.\n");
+    }
+    else
+    {
+        for (i = top; i >= 0; i--)
+        {
+            printf("|%d|\n", stk_arr[i]);
+        }
+        printf("````");
+        printf("\n");
+    }
     if (top == MAX - 1)
     {
         printf("Stack is full\n");
@@ -49,10 +109,26 @@ int isFull()
     {
         printf("Stack is not full.\n");
     }
+    
 }
 
 int isEmpty()
 {
+    int i;
+    // int length = sizeof(stk_arr)/sizeof(stk_arr[0]);
+    if (top == -1)
+    {
+        printf("Stack Is Empty.\n");
+    }
+    else
+    {
+        for (i = top; i >= 0; i--)
+        {
+            printf("|%d|\n", stk_arr[i]);
+        }
+        printf("````");
+        printf("\n");
+    }
     if (top == -1)
     {
         printf("Stack Is Empty.\n");
@@ -65,6 +141,21 @@ int isEmpty()
 
 int size()
 {
+    int i;
+    // int length = sizeof(stk_arr)/sizeof(stk_arr[0]);
+    if (top == -1)
+    {
+        printf("Stack Is Empty.\n");
+    }
+    else
+    {
+        for (i = top; i >= 0; i--)
+        {
+            printf("|%d|\n", stk_arr[i]);
+        }
+        printf("````");
+        printf("\n");
+    }
     printf("Elements availabel in stack : %d \n", top + 1);
 }
 
