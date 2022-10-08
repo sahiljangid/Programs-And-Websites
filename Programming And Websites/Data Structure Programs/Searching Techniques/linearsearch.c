@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int linear(int a[], int n, int k)
+int ls(int a[], int n, int k)
 {
     for (int i = 0; i < n; i++)
     {
@@ -35,6 +36,6 @@ int main()
     int x;
     printf("Enter an number for search: ");
     scanf("%d", &x);
-    linear(arr, length, x);
+    ls(arr, length, x);
     return 0;
 }
