@@ -7,7 +7,7 @@ int BinarySearch(int arr[], int left, int right, int k)
 
     while (left <= right)
     {
-        int mid = left + (right - left) / 2;
+        int mid = (left + right) / 2;
         if (arr[mid] == k)
         {
             printf("Element founded");
