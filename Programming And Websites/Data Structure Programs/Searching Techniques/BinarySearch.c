@@ -10,7 +10,7 @@ int BinarySearch(int arr[], int left, int right, int k)
         int mid = (left + right) / 2;
         if (arr[mid] == k)
         {
-            printf("Element founded");
+            printf("Element founded at position %d",mid+1);
             return mid;
         }
         else if (arr[mid] < k)
@@ -28,7 +28,6 @@ int BinarySearch(int arr[], int left, int right, int k)
 
 int BubbleSort(int arr[], int n)
 {
-    int i, j;
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < n - i - 1; j++)
@@ -54,9 +53,6 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    int k;
-    printf("Which element you want to search in array?\n");
-    scanf("%d", &k);
 
     BubbleSort(arr, length);
     printf("Sorted Array is:\n");
@@ -64,6 +60,15 @@ int main()
     {
         printf("%d ", arr[i]);
     }
+
+    int k;
+    printf("\nWhich element you want to search in array?\n");
+    scanf("%d", &k);
+
+    
     printf("\n");
     BinarySearch(arr, 0, length, k);
+    
+    
+    return 0;
 }

@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* for nav bar */
+
+#logo {
+  width: 50px;
+  border-radius: 50px;
+}
+
+/* for all navbar buttons */
+.btn {
+  margin-left: 30px;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.btn1 {
+  margin-left: 750px;
+}
+/* End of NavBar */
+
+.first {
+  width: 100vw;
+  height: 200px;
+  background-color: whitesmoke;
+  border: 2px solid black;
+}
+
+#first1 > img {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: inline-flex;
+  border-radius: 100px;
+  position: absolute;
+}
+
+#first2 {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  margin-top: 130px;
+  margin-left: 150px;
+  font-size: 30px;
+  display: inline-flex;
+  position: absolute;
+  color: navy;
+}
+
+#first3 > input {
+  width: 750px;
+  height: 50px;
+  background-color: transparent;
+  margin-top: 50px;
+  margin-left: 300px;
+  font-size: 20px;
+  display: inline-flex;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: wheat;
+}
+
+#first4 > input {
+  width: 500px;
+  height: 50px;
+  background-color: transparent;
+  margin-top: 50px;
+  margin-left: 1100px;
+  font-size: 20px;
+  display: inline-flex;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: wheat;
+}
+
+#first5 > button {
+  width: 100px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 1650px;
+  align-items: center;
+  padding-left: 25px;
+  display: inline-flex;
+  position: absolute;
+  border-radius: 10px;
+}
+
+#first6 > button {
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+  margin-left: 1800px;
+  display: inline-flex;
+  position: absolute;
+}
+
+#first7 {
+  height: 50px;
+  width: 130px;
+  margin-top: 130px;
+  margin-left: 300px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+  font-weight: 700;
+}
+
+#first77 {
+  height: 50px;
+  width: 900px;
+  margin-left: 140px;
+  font-size: 15px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+#first77 > input {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+#first77 > label {
+  margin-left: 35px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+#first777 {
+  height: 50px;
+  width: 900px;
+  margin-left: 250px;
+  font-size: 15px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+#first777 > input {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+#first777 > label {
+  margin-left: 35px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+#first7777 {
+  height: 50px;
+  width: 900px;
+  margin-left: 350px;
+  font-size: 15px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+#first7777 > input {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+#first7777 > label {
+  margin-left: 35px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+#first77777 {
+  height: 50px;
+  width: 900px;
+  margin-left: 500px;
+  font-size: 15px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+#first77777 > input {
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+#first77777 > label {
+  margin-left: 35px;
+  display: inline-flex;
+  position: absolute;
+  align-items: center;
+}
+
+
+
+.second{
+  width: 65vw;
+  height: 200px;
+  margin-left: 300px;
+  margin-top: 50px;
+  background-color:antiquewhite;
+  border-radius: 10px;
+  position: absolute;
+}
+
+#second1{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#second2{
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 80px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+
+#second3{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 130px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+#second4 > img{
+  position: absolute;
+  margin-left: 900px;
+  margin-top: 0px;
+  width: 200px;
+  height: 200px;
+}
+
+
+.third{
+  width: 100vw;
+  height: 50px;
+  background-color: whitesmoke;
+}
+
+#third1{
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#third2{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1500px;
+}
+
+#third3{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1550px;
+}
+
+
+
+#third4{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1600px;
+}
+
+
+#third5{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1650px;
+}
+
+
+
+#third6{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1700px;
+}
+
+
+#third7{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1750px;
+}
+
+
+#third8{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1800px;
+}
+
+
+body{
+  min-height: 100vh;
+  
+}
+
+.stickyfooter{
+  position: sticky;
+  top: 100%;
+}
+
+
+.fourth{
+  margin-top: 600px;
+  width: 100vw;
+  height: 200px;
+  background-color:aliceblue;
+}
+
+#fourth1{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 55px;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+#fourth2{
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 25px;
+  font-size: 10px;
+}
+
+#fourth2 > ul{
+  border-radius: 100px;
+}
+
+
+#fourth2 > ul > li{
+  background-color: rgb(10, 115, 185);
+  font-weight: 500;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
+
+
+
+#fourth3 > a{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 1725px;
+  font-size: 25px;
+  font-weight: 800;
+  font-family:'Times New Roman', Times, serif;
+}
+
+
+#fourth4 > a{
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 1725px;
+  font-size: 25px;
+  font-weight: 800;
+  font-family:'Times New Roman', Times, serif;
+}

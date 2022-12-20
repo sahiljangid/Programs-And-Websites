@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* for nav bar */
+
+#logo {
+  width: 50px;
+  border-radius: 50px;
+}
+
+/* for all navbar buttons */
+.btn {
+  margin-left: 30px;
+  margin-right: 15px;
+  padding: 10px;
+}
+
+.btn1 {
+  margin-left: 750px;
+}
+/* End of NavBar */
+
+.fifth {
+  width: 100vw;
+  height: 50px;
+  background-color: whitesmoke;
+}
+
+#fifth1 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#fifth2 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1500px;
+}
+
+#fifth3 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1550px;
+}
+
+#fifth4 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1600px;
+}
+
+#fifth5 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1650px;
+}
+
+#fifth6 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1700px;
+}
+
+#fifth7 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1750px;
+}
+
+#fifth8 {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 1800px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.stickyfooter {
+  position: sticky;
+  top: 100%;
+}
+
+.first {
+  width: 100vw;
+  height: 150px;
+  background-color: whitesmoke;
+}
+
+#first1 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 70px;
+  font-size: 60px;
+  color: rgb(0, 59, 154);
+  font-weight: 700;
+}
+
+#first2 {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 340px;
+  font-size: 40px;
+  color: rgb(0, 59, 154);
+  font-weight: 400;
+}
+
+#first3 > a {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 1600px;
+  color: rgb(0, 59, 154);
+  font-weight: 400;
+}
+
+#first3 > a > button {
+  border-radius: 50px;
+  width: 200px;
+  height: 50px;
+}
+
+.second {
+  width: 100vw;
+  height: 100px;
+  background-image: url("https://images.unsplash.com/photo-1614851099511-773084f6911d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+
+#second1 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 200px;
+  font-size: 50px;
+  font-weight: 700;
+  word-spacing: 30px;
+  color: rgb(0, 59, 154);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.third {
+  width: 100vw;
+  height: 150px;
+}
+
+#third1 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 550;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 20px;
+  font-weight: 400;
+}
+
+#third2 {
+  position: absolute;
+  width: auto;
+  height: 70px;
+  display: flex;
+  margin-top: 90px;
+  margin-left: 400;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: Helvetica, sans-serif;
+  word-spacing: 10px;
+  font-weight: 500;
+}
+
+.fourth {
+  width: 100vw;
+  height: 800px;
+  font-family: monospace;
+}
+
+#fourth1 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 70px;
+  width: 500px;
+  height: auto;
+  display: flex;
+}
+
+#fourth2 > img {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 700px;
+  border-radius: 50px;
+}
+
+.six {
+  width: 100vw;
+  height: 500px;
+  font-family: monospace;
+}
+
+#six1 > img {
+  position: absolute;
+  margin: 10px;
+  width: 700px;
+  margin-left: 50px;
+  border-radius: 50px;
+}
+
+#six2 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 1000px;
+  width: 720px;
+  height: auto;
+}
+
+.seven {
+  width: 100vw;
+  height: 500px;
+  font-family: monospace;
+}
+
+#seven1 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 720px;
+  height: auto;
+}
+
+#seven2 > img {
+  position: absolute;
+  margin: 10px;
+  width: 700px;
+  margin-left: 1000px;
+  border-radius: 50px;
+}
+
+.eight {
+  width: 100vw;
+  height: 500px;
+  font-family: monospace;
+}
+
+#eight1 > img {
+  position: absolute;
+  margin: 10px;
+  width: 700px;
+  margin-left: 50px;
+  border-radius: 50px;
+}
+
+#eight2 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 1000px;
+  width: 720px;
+  height: auto;
+}
+
+.nine {
+  width: 100vw;
+  height: 500px;
+  font-family: monospace;
+}
+
+#nine1 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 720px;
+  height: auto;
+}
+
+#nine2 > img {
+  position: absolute;
+  margin: 10px;
+  width: 700px;
+  height: 450px;
+  margin-left: 1000px;
+  border-radius: 20px;
+}
+
+.ten {
+  width: 100vw;
+  height: 500px;
+  font-family: monospace;
+}
+
+#ten1 > img {
+  position: absolute;
+  margin: 10px;
+  width: 700px;
+  margin-left: 50px;
+  border-radius: 50px;
+}
+
+#ten2 {
+  position: absolute;
+  margin-top: 70px;
+  margin-left: 1000px;
+  width: 720px;
+  height: auto;
+}

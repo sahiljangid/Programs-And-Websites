@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* for nav bar */
+
+#logo{
+    width: 50px;
+    border-radius: 50px;
+    
+}
+
+
+/* for all navbar buttons */
+.btn{
+    margin-left: 30px;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+
+.btn1{
+    margin-left: 750px;
+}
+/* End of NavBar */
+
+
+
+
+.first{
+    width: 100vw;
+    height: 500px;
+    background-color:rgb(19,49,96);
+}
+
+
+#first1{
+    margin-top: 20px;
+    margin-left: 700px;
+    position:absolute;
+    width: auto;
+    height: auto;
+    font-size: 50px;
+    font-weight: 600;
+    color: burlywood;
+}
+
+
+
+#first2{
+    margin-top: 150px;
+    margin-left: 500px;
+    position:absolute;
+    width: auto;
+    height: auto;
+    font-size: 80px;
+    font-weight: 900;
+    color: burlywood;
+}
+
+
+
+.second{
+    width: 100vw;
+    height: 50vh;
+    background-color: wheat;
+
+}
+
+#second1 > a > button{
+    position:absolute;
+    padding: 20px;
+    margin-top: 180px;
+    margin-left: 700px;
+    font-size: 70px;
+    border-radius: 50px;
+    width: 500px;
+    font-family: monospace;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fifth{
+    width: 99vw;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+#fifth1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#fifth2{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1500px;
+}
+
+#fifth3{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1550px;
+}
+
+
+
+#fifth4{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1600px;
+}
+
+
+#fifth5{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1650px;
+}
+
+
+
+#fifth6{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1700px;
+}
+
+
+#fifth7{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1750px;
+}
+
+
+#fifth8{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1800px;
+}
+
+
+body{
+    min-height: 100vh;
+  }
+  
+  .stickyfooter{
+    position: sticky;
+    top: 100%;
+  }
